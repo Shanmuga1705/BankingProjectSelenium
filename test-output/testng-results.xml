@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EBankingProject" duration-ms="48579" started-at="2020-12-22T17:07:38 IST" finished-at="2020-12-22T17:08:27 IST">
+    <groups>
+    </groups>
+    <test name="BankingAppTest" duration-ms="48579" started-at="2020-12-22T17:07:38 IST" finished-at="2020-12-22T17:08:27 IST">
+      <class name="testClasses.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testClasses.TC_AddCustomerTest_003@e320068]" name="setUp" is-config="true" duration-ms="8249" started-at="2020-12-22T17:07:52 IST" finished-at="2020-12-22T17:08:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:testClasses.TC_AddCustomerTest_003@e320068]" name="addNewCustomer" duration-ms="25902" started-at="2020-12-22T17:08:00 IST" finished-at="2020-12-22T17:08:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testClasses.TC_AddCustomerTest_003@e320068]" name="tearDown" is-config="true" duration-ms="964" started-at="2020-12-22T17:08:26 IST" finished-at="2020-12-22T17:08:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.TC_AddCustomerTest_003 -->
+      <class name="testClasses.TC_LoginTest_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testClasses.TC_LoginTest_001@536aaa8d]" name="setUp" is-config="true" duration-ms="8618" started-at="2020-12-22T17:07:39 IST" finished-at="2020-12-22T17:07:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:testClasses.TC_LoginTest_001@536aaa8d]" name="LoginTest" duration-ms="3424" started-at="2020-12-22T17:07:47 IST" finished-at="2020-12-22T17:07:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testClasses.TC_LoginTest_001@536aaa8d]" name="tearDown" is-config="true" duration-ms="946" started-at="2020-12-22T17:07:51 IST" finished-at="2020-12-22T17:07:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.TC_LoginTest_001 -->
+    </test> <!-- BankingAppTest -->
+  </suite> <!-- EBankingProject -->
+</testng-results>
